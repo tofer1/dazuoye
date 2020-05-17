@@ -1,0 +1,72 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  .homebeijing{
+
+    position:fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width:100%;
+
+    height:100%;
+
+    min-width: 1000px;
+
+    z-index:-10;
+
+    zoom: 1;
+
+    background-color: #ffffff;
+
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590319300135&di=4ff6e1c824ae68baf84ff7ec4339f8a3&imgtype=0&src=http%3A%2F%2Fwww.mr-chem.com%2Fupload%2F201605%2F20%2F201605200950357031.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-position: center 0;
+
+}
+
+.dd{
+  font-size:100px ;
+  color: yellowgreen;
+}
+
+.dd1{
+  font-size:20px ;
+  color: yellowgreen;
+}
+.d{
+  color:yellow
+}
+

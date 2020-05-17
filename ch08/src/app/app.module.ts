@@ -14,6 +14,9 @@ import { pathToFileURL } from 'url';
 import { LoginGuard } from './login.guard';
 import { AuthService } from './auth.service';
 
+import{FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
 const mgtChildrenRoutes: Routes = [
   { path: 'user', component: UserManagementComponentComponent },
   { path: 'product', component: ProductComponentComponent },
@@ -45,7 +48,10 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [LoginGuard, AuthService],
   bootstrap: [AppComponent]
